@@ -32,7 +32,12 @@ your data file will be called `brfss2013`. Delete this note when before you subm
 your work. 
 
 ```{r load-data}
-load("brfss2013.RData")
+# ============================================================================================================
+# Download and extract Data and load file
+# ============================================================================================================
+
+# load the data set 
+load(file = 'Data/brfss2013.RData')
 ```
 
 
