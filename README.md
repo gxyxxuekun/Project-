@@ -5,7 +5,6 @@ output:
     fig_height: 4
     highlight: pygments
     theme: spacelab
-    css: style.css
 ---
 
 ## Setup
