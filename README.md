@@ -12,8 +12,17 @@ output:
 ### Load packages
 
 ```{r load-packages, message = FALSE}
-library(ggplot2)
-library(dplyr)
+library('ggplot2')    # library to create plots
+library('plyr')       # data manipulation
+library('dplyr')      # data manipulation
+library('gridExtra')  # supports the layout functionality with ggplot
+library('ggmap')      # visualize maps 
+library('knitr')      # required to apply knitr options 
+library('gtable')     # used to overlay plots in ggplot
+library('grid')       # used to overlay plots in ggplot
+
+# apply general knitr options
+knitr::opts_chunk$set(comment=NA, fig.align='center')
 ```
 
 ### Load data
