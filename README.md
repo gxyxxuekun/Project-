@@ -2,7 +2,8 @@
 ---
 title: "Exploring the BRFSS data"
 output: 
-  html_document: 
+  html_document:
+    keep_md: yes
     fig_height: 4
     highlight: pygments
     theme: spacelab
