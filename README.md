@@ -2,11 +2,11 @@
 ---
 title: "Exploring the BRFSS data"
 output: 
-  html_document:
-    keep_md: yes
+  html_document: 
     fig_height: 4
     highlight: pygments
     theme: spacelab
+    css: style.css
 ---
 
 ## Setup
